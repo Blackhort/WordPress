@@ -3,6 +3,24 @@
     margin: 0
     padding: 0
     box-sizing: border-box
+.btn
+    box-sizing: content-box
+    width: 313px
+    height: 72px
+    box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.23)
+    border: 4px solid rgba(0, 0, 0, 0.23)
+    border-radius: 8px
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%)
+    background-clip: padding-box
+    color: #ffffff
+    font-size: 21px
+    font-weight: 400
+    text-transform: uppercase
+    cursor: pointer
+    transition: 0.6s all
+    &:hover
+        background-image: linear-gradient(to top, #1985a7 0%, #0bc0f1 100%)
+        box-shadow: inset 0 -5px 0 rgba(255,255,255, 0.9)
 .promo
     min-height: 800px
     padding: 39px 0 62px 0
@@ -64,24 +82,7 @@
             color: #f9bf3b
             font-weight: 700
     &_btn
-        box-sizing: content-box
         margin-top: 73px
-        width: 317px
-        height: 72px
-        box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.23)
-        border: 4px solid rgba(0, 0, 0, 0.23)
-        border-radius: 8px
-        background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%)
-        background-clip: padding-box
-        color: #ffffff
-        font-size: 21px
-        font-weight: 400
-        text-transform: uppercase
-        cursor: pointer
-        transition: 0.6s all
-        &:hover
-            background-image: linear-gradient(to top, #1985a7 0%, #0bc0f1 100%)
-            box-shadow: inset 0 -5px 0 rgba(255,255,255, 0.9)
     &_more
         margin-top: 73px
         color: #ffffff
@@ -184,3 +185,66 @@
         font-weight: 300
         line-height: 20px
         margin-top: 26px
+.gift
+    min-height: 628px
+    background-color: #efefef
+    padding: 86px 0 87px 0
+    text-align: center
+    &_img
+        width: 154px
+        height: 174px
+    &_descr
+        margin-top: 42px
+        color: #252525
+        font-size: 29px
+        font-weight: 400
+        line-height: 43px
+    &_btn
+        margin-top: 52px
+        &:hover
+            border: 4px solid rgba(0, 0, 0, 0.5)
+            box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.23)
+.vebinar
+    min-height: 515px
+    padding: 89px 0 64px 0
+    text-align: center
+    &_img
+        width: 342px
+        height: 201px
+    &_descr
+        margin-top: 37px
+        color: #252525
+        font-size: 30px
+        font-weight: 400
+        text-transform: uppercase
+    &_date
+        margin-top: 30px
+        color: #299cbd
+        font-size: 36px
+        font-weight: 900
+        text-transform: uppercase
+    &_warning
+        margin-top: 20px
+        color: #4a4a4a
+        font-size: 23px
+        font-weight: 400
+.footer
+    height: 166px
+    background-color: #1a1a1a
+    padding: 61px 0 69px 0
+    text-align: center
+    &_menu
+        color: #888888
+        font-size: 15px
+        font-weight: 300
+        line-height: 21px
+        a
+            text-decoration: none
+            color: #888888
+            font-size: 15px
+            font-weight: 300
+            line-height: 21px
+            text-decoration: underline
+        .footer_call
+            text-decoration: none
+
